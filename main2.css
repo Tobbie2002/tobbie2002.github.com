@@ -1,0 +1,68 @@
+::-webkit-inner-spin-button
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .container{
+     width: 100%;
+     height: 100vh;
+     background-image: url(https://images.unsplash.com/photo-1527843812948-a8c2ddd2fb68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+     background-position: center;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .card{
+     width: 90%;
+     max-width: 440px;
+     color: #fff;
+     text-align: center;
+     padding: 50px 35px;
+     border: 1px solid rgba(225,225,225,0.3);
+     background: rgba(225,225,225,0.2);
+     border-radius: 16px;
+     box-shadow: 0 4px 30px rgba(225,225,225,0.1);
+     backdrop-filter: blur(5px),
+ }
+ .card img{
+     width: 140px;
+     border-radius: 60%;
+ }
+ .card h2{
+     font-size: 40px;
+     font-weight: 600;
+     margin-top: 20px;
+ }
+
+
+ .card p{
+     font-size: 18px;
+     margin: 10px auto;
+     max-width: 330px;
+ }
+
+ .card .links img{
+     width: 40px;
+     border-radius: 50%;
+     margin: 10px 5px;
+     transition: background 0.5s;
+ }
+
+ .card .links img:hover{
+     background: black;
+ }
+ .btn{
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     font-weight: 500;
+     padding: 10px 30px;
+     border-radius: 30px;
+     margin: 30px 0 10px;
+     background: black;
+     color: white;
+ }
